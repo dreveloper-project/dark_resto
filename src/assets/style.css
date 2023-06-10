@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'aurora';
+        src: url('/fonts/Aurora.otf');
+    }
+        @font-face {
+            font-family: 'mono';
+            src: url('/fonts/Mono.ttf');
+        }
+}
